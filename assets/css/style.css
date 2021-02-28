@@ -9,7 +9,7 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
 {
 
     font-family: "Poiret One", "Roboto Slab", serif;
@@ -31,6 +31,16 @@ h1, h2, h3, h4, h5, h6
     /* background: linear-gradient( 112.1deg,  #d4e4e6 11.4%, #d0dcdd 70.2% ) fixed; */
     background: #e0edee;
 }
+
+
+/* #portfolio a {
+  color: #79a3b1;
+  font-style: italic;
+}
+
+#portfolio a:hover {
+  color: #045762;
+} */
 
 /* Basic */
 
@@ -239,7 +249,7 @@ html {
   -webkit-overflow-scrolling: touch;
   background-image: linear-gradient( 112.1deg,  #79a3b1 11.4%, #59898f 70.2% );
   box-sizing: border-box;
-  height: 100vh;  
+  height: 100vh;
   max-height: 100vh !important;
   max-width: 80vw !important;
   min-width: 45px !important;
@@ -248,7 +258,7 @@ html {
   overflow-y: auto !important;
   padding: 0;
   position: fixed !important;
-  top: calc(0px);  
+  top: calc(0px);
   width: 20%;
   will-change: transform;
   z-index: 9999 !important;
@@ -316,7 +326,7 @@ html {
       transform: rotateX(360deg) rotateZ(45deg) rotateY(-45deg);
     }
   }
-  
+
   .side {
     position: absolute;
     width: var(--size);
@@ -350,7 +360,7 @@ html {
     background-color: #bbb;
     transform: translateZ(calc(var(--size) * -.5));
   }
-  
+
   :root * {
     /* Pause the animation */
     animation-play-state: paused;
@@ -360,8 +370,8 @@ html {
     animation-iteration-count: 1;
     animation-fill-mode: both;
   }
-  
-  
+
+
 
 /* Section */
 
@@ -782,7 +792,7 @@ section.contact-me {
 }
 
 
-@media (min-width:320px) and (max-width: 1200px)  { 
+@media (min-width:320px) and (max-width: 1200px)  {
     .cube {
         display:none;
     }
@@ -801,7 +811,7 @@ section.contact-me {
     }
 }
 
-@media screen and (max-width: 1680px) and (min-width: 846px) { 
+@media screen and (max-width: 1680px) and (min-width: 846px) {
     .menu .social-network ul li a {
         width: 36px;
         height: 36px;
@@ -853,15 +863,15 @@ section.contact-me {
 #menu-toggle,
 #menu-close {
     display: none;
-}  
+}
 
-@media screen and (max-width: 845px) {        
+@media screen and (max-width: 845px) {
     #menu-toggle,
     #menu-close {
         display: inline-block;
-    }    
+    }
 
-    .menu {        
+    .menu {
         width: 320px;
         -webkit-transform: translateX(-100%) !important;
         transform: translateX(-100%) !important;
@@ -871,7 +881,7 @@ section.contact-me {
     }
 
     .menu .image {
-        margin-top: 40px;        
+        margin-top: 40px;
     }
 
     .menu .image img {
@@ -920,5 +930,3 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
-
-
