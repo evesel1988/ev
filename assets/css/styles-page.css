@@ -31,7 +31,7 @@ p, h2 {
   }
   section.module.parallax-1 {
     background-image: url("../images/design-header.jpg");
-    background-size:100% !important;
+    background-size: auto!important;
   }
 
   section.module.parallax-2 {
@@ -51,7 +51,7 @@ p, h2 {
 
   section.module.parallax-1-1 {
     background-image: url("../images/fortnite-header.jpg");
-    background-size:100% !important;
+    background-size: auto !important;
   }
 
   section.module.parallax-2-2 {
@@ -82,7 +82,15 @@ p, h2 {
       font-size: 160px;
     }
   }
+/*   
+  tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
   
+    section.module.parallax {
+      background-position: 50% 90%;
+    }
+    
+  }
   .slide {
     opacity: 0;
     -moz-transition: all 500ms linear;

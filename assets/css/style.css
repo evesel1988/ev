@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
+    width: auto;
 }
 
 #portfolio {
@@ -75,6 +75,10 @@ h4 {
 img {
     width: 100%;
     overflow: hidden;
+}
+
+.other-asset {
+    margin: 15px auto;
 }
 
 ul {
@@ -372,7 +376,11 @@ html {
   }
 
 
-
+.back-link {
+    color: #045762;
+    text-align: center;
+    margin: 10px auto;
+}
 /* Section */
 
 .section {
@@ -405,8 +413,12 @@ html {
     font-weight: 700;
 }
 
-.portfolio .section-heading h2, .portfolio-text, .right-text p, .right-text h4, .left-text p, .left-text h4, div.line-dec.portfolio {
+.portfolio .section-heading h2, .portfolio-text, .right-text p, .right-text h4, .left-text p, .left-text h4, div.line-dec.portfolio, .full-text {
     color: #323535;
+}
+
+.full-text {
+    text-align: center;
 }
 
 div.line-dec.portfolio {
