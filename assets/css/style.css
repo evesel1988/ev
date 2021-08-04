@@ -413,7 +413,7 @@ html {
     font-weight: 700;
 }
 
-.portfolio .section-heading h2, .portfolio-text, .right-text p, .right-text h4, .left-text p, .left-text h4, div.line-dec.portfolio, .full-text {
+.portfolio .section-heading h2, .portfolio-text, .right-text p, .right-text h4, .left-text p, .left-text h4, div.line-dec.portfolio, h4.full-text, p.full-text {
     color: #323535;
 }
 
